@@ -249,17 +249,18 @@ transition: all .3s ease;
     margin-top: 100px;
     margin-bottom: 150px;
 }
-.container-wrap {
-    max-width: 1303px;
-    /* margin: 0 auto; */
-    
-}
 .banner-btn {
     display: flex;
     flex-wrap: wrap;
     margin-bottom: 100px;
     justify-content: space-between;
 }
+.container-wrap {
+    max-width: 1303px;
+    margin: 0 auto;
+    
+}
+
 
 .banner-btn-nav {
     border: 3px solid #00A0DC;
@@ -285,6 +286,9 @@ transition: all .3s ease;
 .btn-for {
     width: 280px;
 }
+.banner-btn-link {
+    color: #221F20;
+}
 .banner-btn-nav::before,
 .banner-btn-nav::after {
     position: absolute;
@@ -300,7 +304,7 @@ transition: all .3s ease;
 }
 .banner-btn-nav::after {
     opacity: 1;
-    transition-delay: .1s;
+    transition-delay: .2s;
 }
 /* .banner-btn-nav:hover {
     color: #221F20;
