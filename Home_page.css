@@ -232,7 +232,7 @@ transition: all .3s ease;
     background-image: url(./source/img/bg-banner.jpeg);
     background-repeat: no-repeat;
     background-size: cover;
-    margin-bottom: 80px;
+    
 }
 
 .banner-wrap {
@@ -329,9 +329,8 @@ transition: all .3s ease;
     left: 0;
 }
 
-
-
 .order-cust {
+    padding-top: 80px;
     padding-bottom: 100px;
     display: none;
     background-image: url(./source/img/Bg_round_right_sec1.svg);
