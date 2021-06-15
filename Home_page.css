@@ -336,7 +336,7 @@ transition: all .3s ease;
     background-image: url(./source/img/Bg_round_right_sec1.svg);
     background-repeat: no-repeat;
     background-position-x: right;
-    background-position-y: bottom;
+    background-position-y: 250px;
 }
 .title-big {
     font-weight: 700;
