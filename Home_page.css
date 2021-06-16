@@ -162,7 +162,7 @@ body {
 }
 
 .main-nav-content {
-    max-width: 1820px;
+    max-width: 1420px;
     margin: auto;
     display: flex;
     justify-content: space-between;
@@ -246,8 +246,8 @@ transition: all .3s ease;
 
 .banner-content-text {
     display: flex;
-    margin: 0 auto;
-    text-align: center;
+    margin:0 auto;
+    /* text-align: center; */
     font-family: 'Poppins', sans-serif;
     font-weight: 700;
     font-style: Bold;
