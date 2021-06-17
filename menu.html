@@ -13,44 +13,97 @@
     <link rel="stylesheet" href="./menu.css">
 </head>
 <body>
-    <nav class="main-nav">
-        <ul class="main-nav-content">
-            <li><a href="#">Company Lists<img class="main-nav-link-arrow" src="./source/img/arrow_down.svg"></a>
-            <ul>
-                <li><a href="#">Industry Company Database</a></li>
-                <li><a href="#">Region Company Database</a></li>
-                <li><a href="#">Sales Leads</a></li>
-                <li><a href="#">Business Encyclopedia</a></li>
-            </ul>
-            </li>
-            <li><a href="#">Customer Marketing<img class="main-nav-link-arrow" src="./source/img/arrow_down.svg"></a>
-                <ul>
-                    <li><a href="#">Telemarketing</a></li>
-                    <li><a href="#">Direct Mail</a></li>
+    <header class="header">
+        <div class="header__container">
+            <a href="#" class="header__logo"><img src="./source/img/Logo_ne.png"></a>
+            <div class="header__left-menu">
+                <div class="header__left-menu-lang">
+                    <img src="./source/img/GB.svg" alt="" class="header-right-part-lang-img">
+                    <img src="./source/img/DE.svg" alt="" class="header-right-part-lang-img">
+                    <img src="./source/img/RU.svg" alt="" class="header-right-part-lang-img">
+                    <img src="./source/img/CN.svg" alt="" class="header-right-part-lang-img">
+                </div>
+                <div class="header__left-menu-list">
+                    <div class="header__left-menu-nav about-link">
+                        About Us <div class="fa-angle-down"></div>
+                        <ul class="submenu">
+                            <li><a href="" class="blue">Company</a></li>
+                            <li><a href="">Our Clients</a></li>
+                            <li><a href="">Contact Us</a></li>
+                        </ul>
+                    </div>
+                    <div class="header__left-menu-nav">
+                        <a href="#" class="header__left-menu-link  sign-link">Sign in/Register</a>
+                    </div>
+                    <div class="header__left-menu-nav">
+                        <a href="#" class="header__left-menu-link  blog-link">Blog</a>
+                    </div>
+                    <div class="header__left-menu-nav">
+                        <a href="#" class="header__left-menu-link try-link">Try Us</a>
+                    </div>
+                </div>
+            </div>
+            <div class="header__right-menu">
+                <div class="header__right-menu-phone">
+                    <div class="header__right-menu-phone-phone-img-wrapper">
+                        <img src="./source/img/phone.svg" alt="Телефон" class="header__right-menu-phone-img">
+                    </div>
+                    <div class="header__right-menu-phone-text">
+                        101 386 597 9156
+                    </div>
+                </div>
+                <div class="header__right-menu-email">
+                    <div class="email-wrapper">
+                        info@biznes-karta.com
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="header__menu menu">
+            <div class="menu__icon">
+                <span></span>
+            </div>
+
+            <nav class="menu__body">
+                <ul class="menu__list">
+                    <li><a href="#" class="menu__link">Company Lists<img class="main-nav-link-arrow" src="./source/img/arrow_down.svg"></a>
+                        <ul class="menu__sub-list">
+                            <li><a class="menu__sub-link first_link" href="#">Industry Company Databases</a></li>
+                            <li><a class="menu__sub-link" href="#">Region Company Databases</a></li>
+                            <li><a class="menu__sub-link" href="#">Sales Leads</a></li>
+                            <li><a class="menu__sub-link" href="#">Business Encyclopedia</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="#" class="menu__link">Customer Ordering<img class="main-nav-link-arrow" src="./source/img/arrow_down.svg"></a>
+                        <ul class="menu__sub-list">
+                            <li><a class="menu__sub-link" href="#">Telemarketing</a></li>
+                            <li><a class="menu__sub-link" href="#">Direct Mail</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="#" class="menu__link">Business Profiles<img class="main-nav-link-arrow" src="./source/img/arrow_down.svg"></a>
+                        <ul class="menu__sub-list">
+                            <li><a class="menu__sub-link" href="#">Region Profile</a></li>
+                            <li><a class="menu__sub-link" href="#">Industry Profile</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="#" class="menu__link">Marketing Analysis<img class="main-nav-link-arrow" src="./source/img/arrow_down.svg"></a>
+                        <ul class="menu__sub-list">
+                            <li><a class="menu__sub-link" href="#">Ranging</a></li>
+                            <li><a class="menu__sub-link" href="#">Compared Analysis</a></li>
+                            <li><a class="menu__sub-link" href="#">Structured Analysis</a></li>
+                            <li><a class="menu__sub-link" href="#">Statistical Analysis</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="#" class="menu__link">Marketing Solutions<img class="main-nav-link-arrow" src="./source/img/arrow_down.svg"></a>
+                        <ul class="menu__sub-list last-nav">
+                            <li><a class="menu__sub-link" href="#">Marketing Review</a></li>
+                            <li><a class="menu__sub-link" href="#">Marketing Research</a></li>
+                            <li><a class="menu__sub-link" href="#">Forecasts</a></li>
+                        </ul>
+                    </li>
                 </ul>
-            </li>
-            <li><a href="#">Region/Industry Profiles<img class="main-nav-link-arrow" src="./source/img/arrow_down.svg"></a>
-                <ul>
-                    <li><a href="#">Region Profile</a></li>
-                    <li><a href="#">Industry Profile</a></li>
-                </ul>
-            </li>
-            <li><a href="#">Statistical Analysis<img class="main-nav-link-arrow" src="./source/img/arrow_down.svg"></a>
-                <ul>
-                    <li><a href="#">Ranging</a></li>
-                    <li><a href="#">Comparing Indicators</a></li>
-                    <li><a href="#">Structure Analysis</a></li>
-                    <li><a href="#">Statistical Modeling</a></li>
-                </ul>
-            </li>
-            <li><a href="#">Marketing Researches<img class="main-nav-link-arrow" src="./source/img/arrow_down.svg"></a>
-                <ul>
-                    <li><a href="#">Marketing Review</a></li>
-                    <li><a href="#">Marketing Research</a></li>
-                    <li><a href="#">Forecasts</a></li>
-                </ul>
-            </li>
-        </ul>
-    </nav>
+            </nav>
+        </div>
+    </header>
 </body>
 </html>
