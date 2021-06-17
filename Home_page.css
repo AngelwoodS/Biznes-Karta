@@ -105,7 +105,9 @@ body {
 .try-link {
     margin-left: 29px;
 }
-
+.header-right-part1 {
+    display: none;
+}
 .about-link {
     display: flex;
     position: relative;
@@ -907,5 +909,75 @@ line-height: 15px;
     }
     .main-logo-wrapper {
         width: 30%;
+    }
+    .header-right-part1 {
+        display: block;
+    }
+    .header-right-part-langs-wrappe1r {
+        display: flex;
+        padding-left: 38%;
+        margin-bottom: 10px;
+    }
+    .header-right-part-lang-wrapper1 {
+        margin-right: 15px;
+    }
+    .header-right-part-lang-wrapper1:last-child {
+        margin-right: 0;
+    }
+    .header-right-part-link1 {
+        font-size: 15px;
+        color: black;
+        font-weight: 600;
+        /* justify-content: center; */
+        text-align: center;
+    }
+    .submenu1 li > a {
+        color: black;
+    }
+    .about-link1 {
+        padding-bottom: 20px;
+    }
+    .submenu1 li {
+        padding-top: 10px;
+    }
+    .sign-link1 {
+        color: #FF4400;
+        margin-bottom: 10px;
+    }
+    .blog-link1 {
+        margin-bottom: 10px;
+    }
+    .try-link1 {
+        margin-bottom: 20px;
+        color: #FF4400;
+    }
+    .header-right-part-contacts-phone-wrapper1 {
+        display: flex;
+        justify-content: center;
+        margin-bottom: 10px;
+    }
+    .header-right-part-contacts-phone-text1 {
+        font-weight: bold;
+font-size: 18px;
+line-height: 27px;
+/* identical to box height */
+
+
+color: #FF4400;
+    }
+    .header-right-part-contacts-phone-img-wrapper1 {
+        padding-top: 8px;
+        padding-right: 10px;
+    }
+    .email-wrapper1 {
+        font-style: normal;
+font-weight: normal;
+font-size: 14px;
+line-height: 21px;
+/* identical to box height */
+
+
+color: #000000;
+text-align: center;
     }
 }
