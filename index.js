@@ -32,3 +32,11 @@ if (iconMenu) {
         menuBody.classList.toggle('_active');
     })
 }
+const mainNavlink = document.querySelector('.main-navlink');
+if (mainNavlink) {
+    const mainSublink = document.querySelector('.main-sublink');
+    mainNavlink.addEventListener("click", function(e) {
+        mainNavlink.classList.toggle('_active1');
+        mainSublink.classList.toggle('_active1');
+    })
+}
