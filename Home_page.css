@@ -905,7 +905,7 @@ line-height: 15px;
     .footer__column-link {
         color: #FFFFFF;
     }
-    .footer__column {
-
+    .main-logo-wrapper {
+        width: 30%;
     }
 }
