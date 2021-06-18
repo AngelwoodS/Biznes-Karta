@@ -475,6 +475,9 @@ transition: all .3s ease;
     height: 100%;
     object-fit: contain;
 }
+.content__encyclopedia-column-two {
+    margin-bottom: 2%;
+}
 /* .content__column-left {
     margin-right: 150px;
 } */
@@ -492,6 +495,12 @@ transition: all .3s ease;
 }
 .content__column-lt {
     flex-basis: 170%;
+}
+.line__book {
+    margin-bottom: 5%;
+}
+.content__column {
+    margin-right: 10%;
 }
 /* .content__column-text-with {
     max-width: 20%;
