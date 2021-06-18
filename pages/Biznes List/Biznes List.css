@@ -117,7 +117,7 @@ body {
 }
 
 .fa-angle-down {
-    background-image: url(/source/img/arrow_down.svg);
+    background-image: url(../../source/img/arrow_down.svg);
     background-repeat: no-repeat;
     background-position: center;
     width: 5px;
@@ -236,7 +236,7 @@ transition: all .3s ease;
     display: none;
 }
 .banner {
-    background-image: url(/source/img/bg-BList.png);
+    background-image: url(../../source/img/bg-BList.png);
     background-repeat: no-repeat;
     background-size: cover;
     margin-bottom: 3%;
@@ -521,7 +521,7 @@ transition: all .3s ease;
 }
 .footer {
     padding-top: 70px;
-    background-image: url(/source/img/footer_bg.png);
+    background-image: url(../../source/img/footer_bg.png);
     background-repeat: no-repeat;
     background-size: cover;
 }
