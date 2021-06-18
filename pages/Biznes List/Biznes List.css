@@ -461,7 +461,9 @@ transition: all .3s ease;
 .content__colum-item-up {
     display: flex;
 }
-
+.bold {
+    font-weight: 700;
+}
 .content__column-item-img {
     margin-right: 5%;
     width: 100%;
