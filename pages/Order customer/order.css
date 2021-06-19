@@ -352,7 +352,6 @@ transition: all .3s ease;
     margin-bottom: 3%;
 }
 .container {
-    /* margin-bottom: 5%; */
     width: 100%;
 }
 .content {
@@ -396,9 +395,6 @@ transition: all .3s ease;
 .column-title-big {
     font-size: 25px;
 }
-/* .container {
-    margin-bottom: 1%;
-} */
 .direct {
     margin-left: 15%;
     margin-bottom: 50px;
