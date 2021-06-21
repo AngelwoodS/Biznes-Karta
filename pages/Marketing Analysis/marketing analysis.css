@@ -686,6 +686,12 @@ body {
     color: #000000;
     text-align: center;
   }
+  .content {
+    flex-direction: column;
+  }
+  .content__column-right-ps {
+    order: -1;
+  }
 }
 
 @media (max-width: 767px) {
